@@ -1,22 +1,22 @@
-Script started on Sun 07 Jun 2020 10:43:04 PM WIB
+Script started on Sun 07 Jun 2020 11:36:19 PM WIB
 zackho.wisely@badak:~$ PS1="$ "
 $ echo $GitHubUser
 zackhowisely
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ eval $PSTAMP
-200607-224344-1858-zackho.wisely/>
+200607-233657-0448-zackho.wisely/>
 $ PS1="\$(eval \$PSTAMP)"
-200607-224356-5750-zackho.wisely/> date
-Sun Jun  7 22:44:07 WIB 2020
-200607-224407-908a-zackho.wisely/> gpg2 --list-keys
+200607-233704-3fdd-zackho.wisely/> date
+Sun Jun  7 23:37:45 WIB 2020
+200607-233745-3b3f-zackho.wisely/> gpg2 --list-keys
 /home/fasilkom/mahasiswa/z/zackho.wisely/.gnupg/pubring.gpg
 -----------------------------------------------------------
 pub   4096R/9770FB99 2020-06-07
 uid       [ultimate] Zackho Wisely (-) <zackho.wisely@ui.ac.id>
 sub   4096R/9C136FB0 2020-06-07
 
-200607-224425-8d17-zackho.wisely/> exit
+200607-233753-13aa-zackho.wisely/> exit
 exit
 
-Script done on Sun 07 Jun 2020 10:44:39 PM WIB
+Script done on Sun 07 Jun 2020 11:38:02 PM WIB
