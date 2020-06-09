@@ -1,0 +1,35 @@
+Script started on Tue 09 Jun 2020 01:20:59 PM WIB
+zackho.wisely@badak:~$ PS1="$ "
+$ echo $GitHubUser
+zackhowisely
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200609-132141-c194-zackho.wisely/>
+$ PS1="\$(eval \$PSTAMP)"
+200609-132151-c441-zackho.wisely/> echo -e $CEKSAYA
+zackhowisely ZCZCSCRIPTSTART 200607-233619 zackhowisely
+zackhowisely zackhowisely 200607-233657-0448-zackho.wisely/ 200607-233657 SEQOK SUMOK 0448a89
+zackhowisely zackhowisely 200607-233704-3fdd-zackho.wisely/ 200607-233704 SEQOK SUMOK 3fdd66f2
+zackhowisely zackhowisely 200607-233745-3b3f-zackho.wisely/ 200607-233745 SEQOK SUMOK 3b3f0a48
+zackhowisely zackhowisely 200607-233753-13aa-zackho.wisely/ 200607-233753 SEQOK SUMOK 13aa6d58
+zackhowisely ZCZCSCRIPTSTOP 200607-233802 SEQOK
+200609-132159-a07e-zackho.wisely/> echo -e $CEKSEBELA1
+zackhowisely ZCZCSCRIPTSTART 200529-092431 zafirabinta
+zackhowisely zafirabinta 200529-092542-bd3d-UAS/ 200529-092542 SEQOK SUMOK bd3d0c58
+zackhowisely zafirabinta 200529-092635-0074-UAS/ 200529-092635 SEQOK SUMOK 00745f15
+zackhowisely zafirabinta 200529-092643-bee8-UAS/ 200529-092643 SEQOK SUMOK bee89ad9
+zackhowisely zafirabinta 200529-092654-6343-UAS/ 200529-092654 SEQOK SUMOK 6343386f
+zackhowisely ZCZCSCRIPTSTOP 200529-092706 SEQOK
+
+200609-132205-9e7f-zackho.wisely/> echo -e $CEKSEBELA2
+zackhowisely ZCZCSCRIPTSTART 200601-091037 zafirr31
+zackhowisely zafirr31 200601-091051-5114-UAS/ 200601-091051 SEQOK SUMOK 51141773
+zackhowisely zafirr31 200601-091055-4413-UAS/ 200601-091055 SEQOK SUMOK 4413c8fd
+zackhowisely zafirr31 200601-091058-44ba-UAS/ 200601-091058 SEQOK SUMOK 44ba7f71
+zackhowisely zafirr31 200601-091109-8b2e-UAS/ 200601-091109 SEQOK SUMOK 8b2e7305
+zackhowisely ZCZCSCRIPTSTOP 200601-091115 SEQOK
+200609-132213-8a9a-zackho.wisely/> exit
+exit
+
+Script done on Tue 09 Jun 2020 01:22:17 PM WIB
